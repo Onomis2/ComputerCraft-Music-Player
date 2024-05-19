@@ -8,7 +8,7 @@ A simple script I made that plays .dfpwm files located on the pc
    wget https://raw.githubusercontent.com/Onomis2/ComputerCraft-Music-Player/main/startup.lua
    ```
    ```
-   https://raw.githubusercontent.com/Onomis2/ComputerCraft-Music-Player/main/playMusic.lua
+   wget https://raw.githubusercontent.com/Onomis2/ComputerCraft-Music-Player/main/playMusic.lua
    ```
 6. add songs to pc ~~Drives and floppy disks are a planned feature~~
 
