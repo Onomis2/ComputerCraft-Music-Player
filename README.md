@@ -3,8 +3,11 @@ A simple script I made that plays .dfpwm files located on the pc
 
 # Install guide
 1. Place a pc with a speaker attached to it either directly or through modems. ~~Drives and floppy disks are a planned feature~~
-2. In the placed pc run codes ```wget https://raw.githubusercontent.com/Onomis2/ComputerCraft-Music-Player/main/startup.lua``` and ```https://raw.githubusercontent.com/Onomis2/ComputerCraft-Music-Player/main/playMusic.lua```
-3. add songs to pc ~~Drives and floppy disks are a planned feature~~
+2. In the placed pc run codes
+   ```wget https://raw.githubusercontent.com/Onomis2/ComputerCraft-Music-Player/main/startup.lua```
+4. and
+   ```https://raw.githubusercontent.com/Onomis2/ComputerCraft-Music-Player/main/playMusic.lua```
+6. add songs to pc ~~Drives and floppy disks are a planned feature~~
 
 # How to get songs
 Here I will show you my method. There might be easier methods out there, but this one is tested by me and proven to work.
