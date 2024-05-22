@@ -11,7 +11,12 @@ while true do
         song = song:gsub(".dfpwm", "")
         print(song)
     end
-    SelectedSong = io.read()..".dfpwm"
-    Dfpwm = require("cc.audio.dfpwm")
-    dofile"playMusic.lua"(SelectedSong,Dfpwm)
+    local input = io.read()
+    if string.find(input,"wget") ~= nil then
+        shell.run(input)
+    else
+        SelectedSong = input..".dfpwm"
+        Dfpwm = require("cc.audio.dfpwm")
+        dofile"playMusic.lua"(SelectedSong,Dfpwm)
+    end
 end
